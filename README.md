@@ -1,3 +1,13 @@
+# Satti Lavni (Arranging from 7♥️)
+
+
+## How to play
+- 52 cards will be dealt to all players (3-8 players)
+- The player who has 7 of hearts goes first and the game continues clockwise
+- Current player can only put down a card if it's a 7 or a leading or trailing card on the table
+- The chance is skipped if the player does not have a 7 or leading or trailing card
+- The first player to put down all their card wins
+
 ## Database structure:
 ```
   card:
@@ -75,13 +85,3 @@
               suit: string
           timestamp: timestamp
 ```
-
-## UI
-Player Name
-[]
-
-
-Create room -> Waiting for players to join
-
-[room code]
-Join room

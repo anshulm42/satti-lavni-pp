@@ -11,7 +11,7 @@ const Home: React.FC = () => {
     }
 
     return (
-        <div className="flex flex-1 flex-col items-center justify-between gap-6">
+        <div className="flex flex-1 flex-col items-center gap-6">
             <h1 className="text-3xl font-bold mb-4">Satti Lavni</h1>
             <input
                 id="userName"
@@ -20,9 +20,9 @@ const Home: React.FC = () => {
                 value={username}
                 className="border border-gray-300 p-3 text-lg rounded-md mb-6"
             />
-            <div className="flex flex-col w-full items-center justify-around">
+            <div className="flex flex-col w-full items-center">
                 <h2 className="text-2xl font-semibold mb-2">Create or Join a Room</h2>
-                <div id="actionGroup" className="flex w-full items-center justify-around">
+                <div id="actionGroup" className="flex w-full items-start justify-around">
                     <CreateRoom />
                     <JoinRoom />
                 </div>
